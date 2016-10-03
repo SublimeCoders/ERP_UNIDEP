@@ -1,11 +1,10 @@
 <?php include('header.php') ?>
+<section class="container">
 	<section class="main">
-		<section class="content">
 			<div class="panel panel-primary" id="panelWrap">
 				<div class="panel-heading">
 					<h3 class="panel-title">Alumnos</h3>
 				</div>
-
 				<div class="panelContent">
 					<span class="panelItems">
 						<a href="almoAlta.php">
@@ -183,43 +182,6 @@
 				</div>
 			</div>
 		</div>
-			
 		</section>
 	</section>
-
-
-	<div class="footer">
-		<div class="footerWrap">
-			<footer>
-				<ul>
-					<li>Contacto</li>
-						<ul>
-							<li>Correo</li>
-							<li>Facebook</li>
-						</ul>
-					<li>Asistencia Tecnica</li>
-						<ul>
-							<li>Telefono</li>
-							<li>Chat con Soporte Tecnico</li>
-							<li>Reportes</li>
-						</ul>
-				</ul>
-
-				<div class="legal">
-					<p>
-						Morbi et metus eu lectus faucibus dapibus ut varius metus. Nulla faucibus felis
-						eros, sed facilisis sapien luctus at. Sed dictum efficitur ligula, vel facilisis
-						eros semper eu. Vivamus molestie justo velit, sed semper augue lacinia ac. Cras pellentesque
-						nibh vel vulputate laoreet. Donec maximus ultrices tortor, suscipit gravida magna vehicula id.
-						Nam vel ultricies ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-					</p>
-				</div>
-			</footer>
-		</div>
-	</div>
-
-	<!--Cargar scripts -->
-	<script src="JS\bootstrap.js" type="text/javascript"></script>
-	<script src="JS\jQuery.js" type="text/javascript"></script>
-</body>
-</html>
+<?php include('footer.php') ?>
