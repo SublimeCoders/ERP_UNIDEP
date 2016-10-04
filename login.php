@@ -20,11 +20,15 @@
 					<div class="form-group has-feedback">
 						<div class="input-group">
 							<span class="input-group-addon"><img src="imagenes/matricula.png" alt="contacto" width="30px"/></span>
-							<input type="text" class="form-control input-lg" name="Nom_maestro" placeholder="Matricula" autofocus="">
+							<input type="text" class="form-control input-lg" name="txt_matricula" placeholder="Matricula" autofocus="">
 						</div>
 					</div>
-					<button type="button" class="form-control btn btn-primary input-lg" name="entrada">¡Dame entrada!</button>
-					<button type="button" class="form-control btn btn-danger input-lg" name="salida">¡Ya me voy!</button>
+					<a href="procesodatos.php" class="entrada">
+						<button type="button" class="form-control btn btn-primary input-lg" name="entrada" >¡Dame entrada!</button>
+					</a>
+					<a href="procesodatos.php" class="salida">
+						<button type="button" class="form-control btn btn-danger input-lg" name="salida">¡Ya me voy!</button>
+					</a>
 				</form>
 			</section>
 		</section>
