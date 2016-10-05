@@ -20,8 +20,10 @@
 
       mysql_close($con);
       // Version php 5.5.52
+      header("location:login.php");
       ?>
     </div>
+    <script>alert("Se registro su salida de la clase")</script>
 
     <style>
       body{

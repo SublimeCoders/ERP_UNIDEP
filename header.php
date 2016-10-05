@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/estilo.css" media="screen" title="no title">
 </head>
 <body>
-	<header>
+	<header class="clase_general">
 	<div class="container">
 			<a href="index.php" class="logo">
 				<span><img src="imagenes/banner.png" alt="UNIDEP" width="250px"/></span>
