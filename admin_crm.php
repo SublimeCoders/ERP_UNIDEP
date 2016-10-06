@@ -1,44 +1,70 @@
 <?php include('header.php') ?>
 
   <div class="container">
-    <a href="select.php">Buscar</a>
-    <a href="Borrarelemento.php">Borrar registro</a>
-    <a href="consulta_asistencias.php">Expediente</a>
-  </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h3 class="panel-title">Asistencia</h3></div>
+      <div class="panel-body">
+        <span class="panelItems">
+          <a href="bajas_crm.php">
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span> Bajas
+            </button>
+          </a>
+        </span>
+
+        <a href="consulta_asistencias.php">
+        <span class="panelItems">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Consulta
+          </button>
+        </span>
+      </a>
+      </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h3 class="panel-title">Retardos</h3></div>
+      <div class="panel-body">
+        <span class="panelItems">
+          <a href="bajas_crm.php">
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span> Bajas
+            </button>
+          </a>
+        </span>
+
+        <a href="consulta_asistencias.php">
+        <span class="panelItems">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Consulta
+          </button>
+        </span>
+      </a>
+      </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h3 class="panel-title">Faltas</h3></div>
+      <div class="panel-body">
+        <span class="panelItems">
+          <a href="bajas_crm.php">
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span> Bajas
+            </button>
+          </a>
+        </span>
+
+        <a href="consulta_asistencias.php">
+        <span class="panelItems">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Consulta
+          </button>
+        </span>
+      </a>
+      </div>
+    </div>
+</div>
+</body>
 
 
-  <body>
-  <center>
-  <form action="busqueda_docente.php" method="post" name="buscar">
-    <label for="txt_buscar">Buscar docente</label>
-    <input type="text" name="Buscarmat" id="txt_buscar">
-    <input type="submit" value="Buscar">
-  </form>
-
-
-
-
-
-
-
-  <form action="Borrarelemento.php" method="post"  name="borrar">
-  <center><input type="text" name="matriculaborrar"></center></br>
-  <center><input type="submit" onclick="alert('Datos eliminados correctamente')" value="Eliminar"></center></br>
-
-  </form>
-
-  </body>
-  <center><footer class="animated fadeIn retraso-2">
-  <nav>
-
-  		<a href="contacto.html" class="espacioarriba">Contacto</a></br></br>
-  		<a href="http://unidep.mx/plantel/hermosillo-modelo/" class="espacioarriba">Pagina oficial de UNIDEP</a></li></br></br>
-
-
-
-
-
-
-
-  </nav></center>
-<<?php include('footer.php') ?>
+<?php include('footer.php') ?>

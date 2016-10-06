@@ -1,6 +1,10 @@
 <?php include("header.php");?>
 <div class="container">
-
+  <ol class="breadcrumb">
+    <li><a href="admin_crm.php">Administracion del CRM</a></li>
+    <li><a href="consulta_asistencias.php">Consulta de asistencia</a></li>
+    <li class="active">Busqueda por matricula</li>
+  </ol>
 <?php
 include("conexion.php");
 
@@ -13,9 +17,11 @@ or die("Problemas al conectar con la base de datos");
 $registro=mysql_query("SELECT * FROM asistencia WHERE matricula= '$_POST[Buscarmat]'")
 or die("Problemas con la consulta: ".mysql_error());
 ?>
-
+<div class="panel panel-info">
+<div class="panel-heading"><?php echo "<h3>Consulta de $_POST[Buscarmat]</h3>"; ?></div>
+<div class="panel-body">
 <table class="table table-striped  table-bordered">
-  <caption>Consulta de un maestro</caption>
+
   <tr>
     <th>Matricula</th>
     <th>Materia</th>
@@ -33,5 +39,6 @@ while ($reg=mysql_fetch_array($registro)) {
 ?>
 </table>
 </div>
-
+</div>
+</div>
 <?php include("footer.php") ?>

@@ -14,7 +14,6 @@
 			</a>
 			<nav class="navbar navbar-static-top">
 						<ul>
-							<li><a href="index.php">Principal</a>
 							<li><a href="ventas.php">Ventas</a></li>
 							<li><a href="logistica.php">Logistica</a></li>
 							<li><a href="talento_humano.php">Talento humano</a></li>
